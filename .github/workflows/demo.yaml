@@ -28,8 +28,8 @@ on:
         default: false
 
 env:
-  MY_VAR: Nilesh
-  MY_GREETINGS: Hallo
+  MY_VAR: Ash
+  MY_GREETINGS: Hello
  
 jobs:
   Job1:
