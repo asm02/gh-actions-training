@@ -1,9 +1,9 @@
 name: Demo
- 
+
 on:
   # webhook event#
   push:
-    branches: 
+    branches:
       - main
       - Task/*
       - feat/*
@@ -30,7 +30,7 @@ on:
 env:
   MY_VAR: Ash
   MY_GREETINGS: Hello
- 
+
 jobs:
   Job1:
     runs-on: ubuntu-latest
